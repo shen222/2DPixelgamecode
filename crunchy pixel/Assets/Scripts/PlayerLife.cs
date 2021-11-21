@@ -26,10 +26,11 @@ public class PlayerLife : MonoBehaviour
     {
         rb.bodyType = RigidbodyType2D.Static;
         anim.SetTrigger("death");
+        Timer.isGameOver = true;
     }
 
-    private void RestartLevel()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+    //private void RestartLevel()
+    //{
+     //   SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    //}
 }

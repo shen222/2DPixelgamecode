@@ -1,31 +1,31 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: E:/AMDT MOBILE GAME DEVELOPMENT/crunchy pixel/Packages/manifest.json
+    m_FilePath: D:/unityProjects/2DPixelgamecode/crunchy pixel/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637723258320108948
-    m_Hash: 1908600920
+      ticks: 637730974750709016
+    m_Hash: 889544286
   m_LockFileStatus:
-    m_FilePath: E:/AMDT MOBILE GAME DEVELOPMENT/crunchy pixel/Packages/packages-lock.json
+    m_FilePath: D:/unityProjects/2DPixelgamecode/crunchy pixel/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637723258508977462
-    m_Hash: 3406666390
+      ticks: 637730975121437248
+    m_Hash: 557521788
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.2d.animation@5.0.4
+    - packageId: com.unity.2d.animation@5.0.6
       testable: 0
       isDirectDependency: 1
-      version: 5.0.4
+      version: 5.0.6
       source: 1
-      resolvedPath: E:\AMDT MOBILE GAME DEVELOPMENT\crunchy pixel\Library\PackageCache\com.unity.2d.animation@5.0.4
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.2d.animation@5.0.6
       assetPath: Packages/com.unity.2d.animation
       name: com.unity.2d.animation
       displayName: 2D Animation
@@ -116,8 +116,6 @@ m_PackageAssets:
         - 7.0.2
         - 8.0.0-pre.3
         compatible:
-        - 5.0.4
-        - 5.0.5
         - 5.0.6
         - 5.0.7
         - 5.0.8
@@ -168,20 +166,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637478931180000000
+      datePublishedTicks: 637594727470000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 3cf59035d02a34d40d678f2cd5f1c65515a8347e
+        revision: 9e7fd5cbe078d004f1e87ecdf3b57436664a690a
         path: 
     - packageId: com.unity.2d.pixel-perfect@4.0.1
       testable: 0
       isDirectDependency: 1
       version: 4.0.1
       source: 1
-      resolvedPath: E:\AMDT MOBILE GAME DEVELOPMENT\crunchy pixel\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
       assetPath: Packages/com.unity.2d.pixel-perfect
       name: com.unity.2d.pixel-perfect
       displayName: 2D Pixel Perfect
@@ -251,12 +249,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/2d.git
         revision: 7d7470f4ca0ea8353d4c9640b3b6ae9d1ebd9c1d
         path: 
-    - packageId: com.unity.2d.psdimporter@4.0.2
+    - packageId: com.unity.2d.psdimporter@4.1.0
       testable: 0
       isDirectDependency: 1
-      version: 4.0.2
+      version: 4.1.0
       source: 1
-      resolvedPath: E:\AMDT MOBILE GAME DEVELOPMENT\crunchy pixel\Library\PackageCache\com.unity.2d.psdimporter@4.0.2
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.2d.psdimporter@4.1.0
       assetPath: Packages/com.unity.2d.psdimporter
       name: com.unity.2d.psdimporter
       displayName: 2D PSD Importer
@@ -322,16 +320,15 @@ m_PackageAssets:
         - 6.0.1
         - 7.0.0-pre.3
         compatible:
-        - 4.0.2
         - 4.1.0
         - 4.1.1
         - 4.1.2
-        verified: 4.0.2
+        verified: 4.1.2
       dependencies:
       - name: com.unity.2d.common
-        version: 4.0.2
+        version: 4.0.3
       - name: com.unity.2d.animation
-        version: 5.0.2
+        version: 5.0.6
       - name: com.unity.2d.sprite
         version: 1.0.0
       resolvedDependencies:
@@ -350,7 +347,7 @@ m_PackageAssets:
       - name: com.unity.modules.uielementsnative
         version: 1.0.0
       - name: com.unity.2d.animation
-        version: 5.0.4
+        version: 5.0.6
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.modules.animation
@@ -371,20 +368,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637366443480000000
+      datePublishedTicks: 637594727750000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 4e96f68a7587d87b4fee15d6f88a5d86c2afa9aa
+        revision: 9e7fd5cbe078d004f1e87ecdf3b57436664a690a
         path: 
     - packageId: com.unity.2d.sprite@1.0.0
       testable: 0
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.2d.sprite@1.0.0
       assetPath: Packages/com.unity.2d.sprite
       name: com.unity.2d.sprite
       displayName: 2D Sprite
@@ -430,12 +427,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.2d.spriteshape@5.1.1
+    - packageId: com.unity.2d.spriteshape@5.1.3
       testable: 0
       isDirectDependency: 1
-      version: 5.1.1
+      version: 5.1.3
       source: 1
-      resolvedPath: E:\AMDT MOBILE GAME DEVELOPMENT\crunchy pixel\Library\PackageCache\com.unity.2d.spriteshape@5.1.1
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.2d.spriteshape@5.1.3
       assetPath: Packages/com.unity.2d.spriteshape
       name: com.unity.2d.spriteshape
       displayName: 2D SpriteShape
@@ -503,6 +500,7 @@ m_PackageAssets:
         - 5.1.3
         - 5.1.4
         - 5.1.5
+        - 5.1.6
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.0
@@ -515,12 +513,11 @@ m_PackageAssets:
         - 7.0.3
         - 8.0.0-pre.4
         compatible:
-        - 5.1.1
-        - 5.1.2
         - 5.1.3
         - 5.1.4
         - 5.1.5
-        verified: 5.1.5
+        - 5.1.6
+        verified: 5.1.6
       dependencies:
       - name: com.unity.mathematics
         version: 1.1.0
@@ -570,20 +567,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637478930260000000
+      datePublishedTicks: 637594728080000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 3cf59035d02a34d40d678f2cd5f1c65515a8347e
+        revision: 9e7fd5cbe078d004f1e87ecdf3b57436664a690a
         path: 
     - packageId: com.unity.2d.tilemap@1.0.0
       testable: 0
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.2d.tilemap@1.0.0
       assetPath: Packages/com.unity.2d.tilemap
       name: com.unity.2d.tilemap
       displayName: 2D Tilemap Editor
@@ -628,24 +625,25 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.collab-proxy@1.3.9
+    - packageId: com.unity.collab-proxy@1.7.1
       testable: 0
       isDirectDependency: 1
-      version: 1.3.9
+      version: 1.7.1
       source: 1
-      resolvedPath: E:\AMDT MOBILE GAME DEVELOPMENT\crunchy pixel\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.collab-proxy@1.7.1
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
-      displayName: Unity Collaborate
+      displayName: Version Control
       author:
         name: 
         email: 
         url: 
       category: Editor
       type: 
-      description: Collaborate with your teammates with the official version control
-        system for Unity. Collaborate is a simple way for teams to save, share, and
-        sync your Unity project.
+      description: The Version Control package gives you the ability to use either
+        Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic
+        SCM for Unity (beta), a Plastic SCM subscription is required. Learn more
+        about how you can get started for free by visiting plasticscm.com.
       status: 4
       errors: []
       versions:
@@ -678,7 +676,9 @@ m_PackageAssets:
         - 1.12.5
         - 1.13.5
         - 1.14.1
+        - 1.14.4
         - 1.15.1
+        - 1.15.4
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -690,14 +690,17 @@ m_PackageAssets:
         - 2.1.0-preview.5
         - 2.1.0-preview.6
         compatible:
-        - 1.3.9
-        - 1.4.9
-        - 1.5.7
-        - 1.6.0
+        - 1.7.1
         - 1.8.0
+        - 1.9.0
         - 1.10.2
+        - 1.11.2
         - 1.12.5
+        - 1.13.5
         - 1.14.1
+        - 1.14.4
+        - 1.15.1
+        - 1.15.4
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -708,20 +711,27 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.3.9
-      dependencies: []
-      resolvedDependencies: []
+        verified: 1.7.1
+      dependencies:
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
+      resolvedDependencies:
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
       keywords:
-      - vsc
-      - version
-      - control
-      - collab
-      - collaboration
-      - collaborate
-      - teams
-      - team
-      - cloud
       - backup
+      - cloud
+      - collab
+      - collaborate
+      - collaboration
+      - control
+      - plastic
+      - plasticscm
+      - source
+      - team
+      - teams
+      - version
+      - vcs
       registry:
         id: main
         name: 
@@ -734,20 +744,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637314349270000000
+      datePublishedTicks: 637616921650000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: fa825106f349f996acff22f718845eab46ca2d7c
+        revision: 30ef59f552633de9ff0401db4e73ac89982d4ac0
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: E:\AMDT MOBILE GAME DEVELOPMENT\crunchy pixel\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -821,7 +831,7 @@ m_PackageAssets:
         version: 1.1.1
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.24
+        version: 1.1.27
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -849,12 +859,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
         revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.7
+    - packageId: com.unity.ide.visualstudio@2.0.11
       testable: 0
       isDirectDependency: 1
-      version: 2.0.7
+      version: 2.0.11
       source: 1
-      resolvedPath: E:\AMDT MOBILE GAME DEVELOPMENT\crunchy pixel\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -910,7 +920,7 @@ m_PackageAssets:
         version: 1.1.9
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.24
+        version: 1.1.27
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -930,20 +940,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637486638490000000
+      datePublishedTicks: 637613656180000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: dec282022c7a95fada560c36f53da9dd155a142c
+        revision: 680e06d94ffca728223ae2cb14bb919cd354e2c1
         path: 
     - packageId: com.unity.ide.vscode@1.2.3
       testable: 0
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: E:\AMDT MOBILE GAME DEVELOPMENT\crunchy pixel\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -1009,12 +1019,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
         revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
         path: 
-    - packageId: com.unity.test-framework@1.1.24
+    - packageId: com.unity.test-framework@1.1.27
       testable: 0
       isDirectDependency: 1
-      version: 1.1.24
+      version: 1.1.27
       source: 1
-      resolvedPath: E:\AMDT MOBILE GAME DEVELOPMENT\crunchy pixel\Library\PackageCache\com.unity.test-framework@1.1.24
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.test-framework@1.1.27
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -1062,8 +1072,6 @@ m_PackageAssets:
         - 1.1.29
         - 1.1.30
         compatible:
-        - 1.1.24
-        - 1.1.26
         - 1.1.27
         - 1.1.29
         - 1.1.30
@@ -1097,20 +1105,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637505702940000000
+      datePublishedTicks: 637594751620000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
-        revision: e6fe8892689398c0d9aba4587e0ba69edc3d82b8
+        revision: c2f2cc9b7ea61d42964257363595dff5e8c47c42
         path: 
     - packageId: com.unity.textmeshpro@3.0.6
       testable: 0
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: E:\AMDT MOBILE GAME DEVELOPMENT\crunchy pixel\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -1273,7 +1281,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: E:\AMDT MOBILE GAME DEVELOPMENT\crunchy pixel\Library\PackageCache\com.unity.timeline@1.4.8
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -1431,7 +1439,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.ugui@1.0.0
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -1494,7 +1502,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1542,7 +1550,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.androidjni@1.0.0
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1590,7 +1598,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.animation@1.0.0
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1638,7 +1646,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1686,7 +1694,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.audio@1.0.0
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1734,7 +1742,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.cloth@1.0.0
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1786,7 +1794,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.director@1.0.0
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1842,7 +1850,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1891,7 +1899,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.imgui@1.0.0
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1939,7 +1947,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -1987,7 +1995,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -2035,7 +2043,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.physics@1.0.0
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -2083,7 +2091,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.physics2d@1.0.0
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -2131,7 +2139,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.screencapture@1.0.0
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -2183,7 +2191,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.terrain@1.0.0
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -2231,7 +2239,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -2287,7 +2295,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.tilemap@1.0.0
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -2339,7 +2347,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.ui@1.0.0
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -2387,7 +2395,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.uielements@1.0.0
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -2451,7 +2459,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.umbra@1.0.0
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -2499,7 +2507,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2555,7 +2563,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2603,7 +2611,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2659,7 +2667,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2715,7 +2723,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2771,7 +2779,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2843,7 +2851,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.vehicles@1.0.0
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2895,7 +2903,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.video@1.0.0
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2955,7 +2963,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.vr@1.0.0
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -3017,7 +3025,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.wind@1.0.0
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -3065,7 +3073,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.xr@1.0.0
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -3125,7 +3133,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.subsystems@1.0.0
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -3177,7 +3185,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: E:\unity\2020.3.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielementsnative
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -3236,7 +3244,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: E:\AMDT MOBILE GAME DEVELOPMENT\crunchy pixel\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3292,12 +3300,88 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
         path: 
+    - packageId: com.unity.nuget.newtonsoft-json@2.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 2.0.0
+      source: 1
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      assetPath: Packages/com.unity.nuget.newtonsoft-json
+      name: com.unity.nuget.newtonsoft-json
+      displayName: Newtonsoft Json
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'Newtonsoft Json for use in Unity projects and Unity packages.
+        Currently synced to version 12.0.2.
+
+
+        This package is used for advanced
+        json serialization and deserialization. Most Unity users will be better suited
+        using the existing json tools built into Unity.
+
+        To avoid assembly
+        clashes, please use this package if you intend to use Newtonsoft Json.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        verified: 2.0.2
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637237898320000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+        revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
+        path: 
     - packageId: com.unity.mathematics@1.1.0
       testable: 0
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: E:\AMDT MOBILE GAME DEVELOPMENT\crunchy pixel\Library\PackageCache\com.unity.mathematics@1.1.0
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
       displayName: Mathematics
@@ -3313,40 +3397,12 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 0.0.12-preview.2
-        - 0.0.12-preview.5
-        - 0.0.12-preview.8
-        - 0.0.12-preview.10
-        - 0.0.12-preview.11
-        - 0.0.12-preview.13
-        - 0.0.12-preview.17
-        - 0.0.12-preview.19
-        - 0.0.12-preview.20
-        - 1.0.0-preview.1
-        - 1.0.1
-        - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
-        - 1.2.4
-        - 1.2.5
         compatible:
-        - 0.0.12-preview.2
-        - 0.0.12-preview.5
-        - 0.0.12-preview.8
-        - 0.0.12-preview.10
-        - 0.0.12-preview.11
-        - 0.0.12-preview.13
-        - 0.0.12-preview.17
-        - 0.0.12-preview.19
-        - 0.0.12-preview.20
-        - 1.0.0-preview.1
-        - 1.0.1
-        - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
-        - 1.2.4
-        - 1.2.5
-        verified: 1.2.5
+        verified: 1.2.1
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3363,7 +3419,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 636984649280000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3376,7 +3432,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.3
       source: 1
-      resolvedPath: E:\AMDT MOBILE GAME DEVELOPMENT\crunchy pixel\Library\PackageCache\com.unity.2d.common@4.0.3
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.2d.common@4.0.3
       assetPath: Packages/com.unity.2d.common
       name: com.unity.2d.common
       displayName: 2D Common
@@ -3392,33 +3448,8 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.0.9-preview.1
-        - 1.0.9-preview.2
-        - 1.0.10-preview
-        - 1.0.11-preview.1
-        - 1.1.0-preview.1
-        - 1.1.0-preview.2
-        - 1.2.0-preview.1
-        - 2.0.1
-        - 2.0.2
-        - 2.1.0
-        - 3.0.0
-        - 3.0.1
-        - 4.0.0
-        - 4.0.1
-        - 4.0.2
         - 4.0.3
-        - 5.0.0-pre.1
-        - 5.0.0-pre.2
-        - 5.0.0
-        - 6.0.0-pre.2
-        - 6.0.0-pre.3
-        - 6.0.0-pre.4
-        - 6.0.0
-        - 6.0.1
-        - 7.0.0-pre.3
         compatible:
-        - 4.0.2
         - 4.0.3
         verified: 4.0.3
       dependencies:
@@ -3453,7 +3484,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637408843940000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3466,7 +3497,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.1
       source: 1
-      resolvedPath: E:\AMDT MOBILE GAME DEVELOPMENT\crunchy pixel\Library\PackageCache\com.unity.2d.path@4.0.1
+      resolvedPath: D:\unityProjects\2DPixelgamecode\crunchy pixel\Library\PackageCache\com.unity.2d.path@4.0.1
       assetPath: Packages/com.unity.2d.path
       name: com.unity.2d.path
       displayName: 2D Path
@@ -3482,30 +3513,10 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.0.0-preview.1
-        - 1.0.0-preview.4
-        - 2.0.1
-        - 2.0.2
-        - 2.0.3
-        - 2.0.4
-        - 2.0.5
-        - 2.0.6
-        - 2.1.0
-        - 2.1.1
-        - 3.0.0
-        - 3.0.1
-        - 3.0.2
-        - 4.0.0
         - 4.0.1
-        - 4.0.2
-        - 5.0.0-pre.1
-        - 5.0.0-pre.2
-        - 5.0.0
-        - 5.0.1
         compatible:
         - 4.0.1
-        - 4.0.2
-        verified: 4.0.2
+        verified: 4.0.1
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3523,7 +3534,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637328350450000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3533,5 +3544,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: E:/AMDT MOBILE GAME DEVELOPMENT/crunchy pixel/Packages
-m_EditorVersion: 2020.3.9f1 (108be757e447)
+m_ProjectPath: D:/unityProjects/2DPixelgamecode/crunchy pixel/Packages
+m_EditorVersion: 2020.3.16f1 (049d6eca3c44)
