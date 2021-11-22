@@ -5,9 +5,18 @@ using UnityEngine.UI;
 
 public class ItemCollector : MonoBehaviour
 {
-    private int biscuits = 0;
+    public int biscuits = 0;
+    public int highScores = 0;
 
-    [SerializeField] private Text biscuitsText;
+    [SerializeField] public Text biscuitsText;
+    [SerializeField] public Text highscoreText;
+
+    void Start()
+    {
+
+        highscoreText.text = $"High Score: {PlayerPrefs.GetInt("highscore ", 0).ToString()}";
+
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -17,5 +26,10 @@ public class ItemCollector : MonoBehaviour
             biscuits++;
             biscuitsText.text = "Biscuits: " + biscuits;
         }
+
+        PlayerPrefs.SetInt("HighScore", biscuits);
+
+       
+        
     }
 }
