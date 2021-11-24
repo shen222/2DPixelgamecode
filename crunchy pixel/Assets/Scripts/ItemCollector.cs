@@ -10,18 +10,20 @@ public class ItemCollector : MonoBehaviour
 
     [SerializeField] public Text biscuitsText;
     [SerializeField] public Text highscoreText;
+    [SerializeField] private AudioSource collectionSoundEffect;
 
     void Start()
     {
 
-        highscoreText.text = $"High Score: {PlayerPrefs.GetInt("highscore ", 0).ToString()}";
-
+        highscoreText.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Biscuit"))
         {
+            collectionSoundEffect.Play();
             Destroy(collision.gameObject);
             biscuits++;
             biscuitsText.text = "Biscuits: " + biscuits;
