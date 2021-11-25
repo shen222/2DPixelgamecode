@@ -23,8 +23,6 @@ public class PlayerLife : MonoBehaviour
         if (collision.gameObject.CompareTag("Deathbox"))
         {
             Die();
-           
-       
         }
     }
 
@@ -34,11 +32,24 @@ public class PlayerLife : MonoBehaviour
         deathSoundEffect.Play();
         rb.bodyType = RigidbodyType2D.Static;
         anim.SetTrigger("death");
+
+        HighscoreEvent();
+    }
+
+    private void HighscoreEvent()
+    {
+        int highscore = PlayerPrefs.GetInt("HighScore", 0);
+
+        if(ItemCollector.biscuits > highscore) 
+        {
+            PlayerPrefs.SetInt("HighScore", ItemCollector.biscuits);
+        }
     }
 
     private void RestartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("Game");
     }
 
 

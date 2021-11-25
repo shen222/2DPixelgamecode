@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ItemCollector : MonoBehaviour
 {
-    public int biscuits = 0;
+    public static int biscuits = 0;
     public int highScores = 0;
 
     [SerializeField] public Text biscuitsText;
@@ -14,9 +14,8 @@ public class ItemCollector : MonoBehaviour
 
     void Start()
     {
-
-        highscoreText.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
-        
+        highscoreText.text = $"high score :{PlayerPrefs.GetInt("HighScore", 0).ToString()}";
+        biscuits = 0;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -25,13 +24,11 @@ public class ItemCollector : MonoBehaviour
         {
             collectionSoundEffect.Play();
             Destroy(collision.gameObject);
-            biscuits++;
+            //biscuits++;
+            biscuits += 1;
             biscuitsText.text = "Biscuits: " + biscuits;
         }
 
-        PlayerPrefs.SetInt("HighScore", biscuits);
-
-       
-        
+        //PlayerPrefs.SetInt("HighScore", biscuits);
     }
 }
