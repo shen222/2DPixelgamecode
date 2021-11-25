@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class PlayerLife : MonoBehaviour
 {
-    
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -15,10 +14,10 @@ public class PlayerLife : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        
+
     }
 
-     void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Deathbox"))
         {
@@ -26,7 +25,7 @@ public class PlayerLife : MonoBehaviour
         }
     }
 
-   
+
     private void Die()
     {
         deathSoundEffect.Play();
@@ -40,7 +39,7 @@ public class PlayerLife : MonoBehaviour
     {
         int highscore = PlayerPrefs.GetInt("HighScore", 0);
 
-        if(ItemCollector.biscuits > highscore) 
+        if (ItemCollector.biscuits > highscore)
         {
             PlayerPrefs.SetInt("HighScore", ItemCollector.biscuits);
         }

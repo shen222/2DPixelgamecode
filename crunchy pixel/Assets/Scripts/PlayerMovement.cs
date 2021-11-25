@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
+
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -32,10 +34,10 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-         dirx = Input.GetAxisRaw("Horizontal");
+         dirx = CrossPlatformInputManager.GetAxis("Horizontal");
         rb.velocity = new Vector2(dirx * moveSpeed, rb.velocity.y);
        
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        if (CrossPlatformInputManager.GetButtonDown("Jump") && IsGrounded())
         {
               jumpSoundEffect.Play();
               rb.velocity = new Vector2(rb.velocity.x, jumpForce);

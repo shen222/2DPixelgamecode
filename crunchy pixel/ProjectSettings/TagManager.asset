@@ -7,6 +7,7 @@ TagManager:
   - Biscuit
   - Deathbox
   - GM
+  - BGM
   layers:
   - Default
   - TransparentFX
